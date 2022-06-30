@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ModelN EOL Portal
-description: Portal to  view and track End of Life timelines for software and libraries used in building Model N products
+title: End of Life Tracking @ModelN
+description: Portal to view and track End of Life timelines for software and libraries used in building Model N products
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Suryaprathap Kambham
@@ -67,11 +67,11 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "Contribute":
+    - "https://github.com/suryaprathapk/suryaprathapk.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.md&title="
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
