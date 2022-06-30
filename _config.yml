@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: End of Life Tracking @ModelN
+title: EOL Tracking @ModelN
 description: Portal to view and track End of Life timelines for software and libraries used in building Model N products
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "https://just-the-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -24,7 +24,7 @@ remote_theme: just-the-docs/just-the-docs
 theme: just-the-docs
 
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile","docs/tests/"]
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile","docs/tests/", ".idea/"]
 
 # Regression tests
 # By default, the pages in /docs/tests are excluded when the ste is built.
