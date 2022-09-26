@@ -1,5 +1,5 @@
 ---
-permalink: /centos
+permalink: /demo_test
 layout: post
 title: CentOS
 category: os
